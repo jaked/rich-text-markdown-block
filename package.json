@@ -20,25 +20,14 @@
   "blocks": [
     {
       "type": "file",
-      "id": "file-block",
-      "title": "Example File Block",
-      "description": "A basic file block",
-      "entry": "/src/blocks/example-file-block/index.tsx",
+      "id": "rich-text-markdown-block",
+      "title": "Rich-text Markdown Editor Block",
+      "description": "A rich-text editor block that stores Markdown",
+      "entry": "/src/blocks/rich-text-markdown-block/index.tsx",
       "extensions": [
-        "*"
+        "*.md"
       ],
-      "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
-    },
-    {
-      "type": "folder",
-      "id": "folder-block",
-      "title": "Example Folder Block",
-      "description": "A basic folder block",
-      "entry": "/src/blocks/example-folder-block/index.tsx",
-      "extensions": [
-        "*"
-      ],
-      "example_path": "https://github.com/githubocto/flat"
+      "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md"
     }
   ],
   "dependencies": {
@@ -47,13 +36,19 @@
     "@loadable/component": "^5.15.0",
     "@octokit/rest": "^18.12.0",
     "@types/lodash.uniqueid": "^4.0.6",
+    "@udecode/plate": "^10.1.3",
     "git-url-parse": "^11.6.0",
     "lodash.uniqueid": "^4.0.1",
     "parse-static-imports": "^1.1.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-error-boundary": "^3.1.4",
-    "react-query": "^3.32.3"
+    "react-query": "^3.32.3",
+    "slate": "^0.73.0",
+    "slate-history": "^0.66.0",
+    "slate-hyperscript": "^0.67.0",
+    "slate-react": "^0.73.0",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@types/git-url-parse": "^9.0.1",
