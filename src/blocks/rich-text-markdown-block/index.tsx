@@ -85,7 +85,7 @@ export const serializeMd = (data: any): string => {
   // TODO(jaked) doesn't handle block quotes
   // TODO(jaked) apostrophes roundtrip to HTML entities
   const markdown = data.map(serialize).join('\n\n');
-  console.log()
+  console.log(markdown);
   return markdown;
 }
 
