@@ -25,7 +25,7 @@
       "description": "A rich-text editor block that stores Markdown",
       "entry": "/src/blocks/rich-text-markdown-block/index.tsx",
       "extensions": [
-        "*.md"
+        "md"
       ],
       "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md"
     }
